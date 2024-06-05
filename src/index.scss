@@ -316,7 +316,36 @@
         }
       }
     }
-    @media (width < 764px) {
+  }
+
+  @media (width < 764px) {
+    .header-introduction {
+      & .container-profile {
+        flex-direction: column;
+      }
+    }
+
+    .container-experience {
+      height: auto;
+      & .card {
+        flex-direction: column;
+        padding: 0 0.6rem;
+      }
+    }
+    .container-skills {
+      & .container-card-skills {
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+        & .card-skill {
+          width: 8ch;
+        }
+      }
+    }
+    .container-projects {
+      &--card {
+        padding: 0 0 2rem 0;
+      }
+    }
+    .container-contact {
       .form-contact {
         width: 50%;
       }
