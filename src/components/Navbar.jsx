@@ -24,6 +24,7 @@ export function Navbar() {
         <Profile />
         <Experience />
         <Skills />
+
         <Project />
         <Contact />
       </section>

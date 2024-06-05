@@ -1,4 +1,4 @@
-import { images } from './Skills.js'
+import { images } from './skillsImage'
 
 const SkillsLogo = [
   { img: images.htmlLogo, name: 'HTML' },
